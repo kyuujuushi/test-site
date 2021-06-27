@@ -2,19 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <!-- Fonts -->
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!----------->
     <title>comic test site</title>
   </head>
   <body>
-    <div class="menu">
-      <h3>Test site</h3>
-      <p>
-        This is a test site for the comic.
-        The main purpose is to develop the "gallary" and the CSS for the site.
-      </p>
-      <br>
-      <button type="button" name="button" onclick="document.location = 'index.html'">
-        back to home page
-      </button>
+
+    <div class="w3-row-padding">
+
+      <div class="w3-col" style="width:25%">
+        <h3>Test site</h3>
+        <p>
+          This is a test site for the comic.
+          The main purpose is to develop the "gallary" and the CSS for the site.
+        </p>
+        <br>
+        <button type="button" name="button" onclick="document.location = 'index.html'">
+          back to home page
+        </button>
+      </div>
+
+      <div class="w3-col" style="width:63%">
+        <picture>
+          <img src="./test-images/test-1.png">
+        </picture>
+      </div>
+      
+      <div class="w3-col" style="width:12%">
+        <button type="button" name="button">a</button>
+        <br>
+        <button type="button" name="button">o</button>
+      </div>
+
     </div>
+
   </body>
 </html>
