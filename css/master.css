@@ -1,0 +1,12 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.w3-row-padding {
+  padding: 1em, 4em;
+  margin: 5em, 10em;
+}
